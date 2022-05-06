@@ -29,7 +29,7 @@ const booksRouter = require('./src/routes/booksroute');
 const authorsRouter = require('./src/routes/authorsroute');
 
 const app = new express; 
-app.use(cors())// Part #2 Point 7
+app.use(cors())                              //  Part #2 Point 7
 
 app.set('views','./src/views'); 
 app.set('view engine','ejs'); 
